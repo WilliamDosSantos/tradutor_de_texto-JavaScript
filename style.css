@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5740a1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.content {
+  padding: 15px;
+  box-shadow: 0 1px 2px #0003;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.divSelects {
+  display: flex;
+  gap: 5px;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+
+.divTextareas {
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  border-color: #ddd;
+  outline: none;
+  padding: 5px;
+  font-size: 18px;
+  width: 50%;
+  border-radius: 5px;
+  resize: none;
+}
+
+button{
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #5740a1;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
